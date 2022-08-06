@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>FORM</title>
+</head>
+<body>
+    <h1>Clarusway Survey Form</h1>
+    <form action="#">
+    <h3>Thank you for taking the time to help us improve the platform</h3>
+    <label for="name">Name</label><br>
+    <input type="text" name="name" id="name" placeholder="Enter your name">
+    <br>
+    <label for="lname">Name</label><br>
+    <input type="text" name="lname" id="lname" placeholder="Enter your Surname">
+    <br>
+    <label for="mail">Email</label><br>
+    <input type="email" name="mail" id="mail" placeholder="user@clarusway.com">
+    <br>
+
+    <h3>Which option best describes your current role?</h3>
+    <select name="role" id="role">
+        <option disabled selected value>Select your role</option>
+        <option value="student">Student</option>
+        <option value="teacher">Teacher</option>
+        <option value="full time job">FullTime Job</option>
+        <option value="part time job">Part Time Job</option>
+        <option value="student">Student</option>
+    </select>
+    <br>
+
+    <h3>Would you recommend Clarusway to a friend?</h3>
+    <input type="radio" name="comment" id="yes" checked>
+    <label for="yes">Definitely, Yes</label>
+    <br>
+    <input type="radio" name="comment" id="maybe">
+    <label for="maybe">Maybe</label>
+    <br>
+    <input type="radio" name="comment" id="sure">
+    <label for="sure">Not sure</label>
+    <br>
+    <input type="radio" name="comment" id="no">
+    <label for="no">Definitely, No</label>
+    <br>
+
+    <h3>What is your favorite feature of Clarusway?</h3>
+    <select name="option" id="feature">
+        <option disabled selected value> Select an option</option>
+        <option value="courses">Courses</option>
+        <option value="project">Project</option>
+        <option value="community">Community</option>
+        <option value="mentors">Mentors</option>
+    </select>
+    <br>
+
+    <h3>What would you like to see improved? (Check all that apply)</h3>
+    <input type="checkbox" name="frontend" id="fe">
+    <label for="fe">Front-end Projects</label>
+    <br>
+    <input type="checkbox" name="backend" id="be">
+    <label for="be">Back-end Projects</label>
+    <br>
+    <input type="checkbox" name="data" id="da">
+    <label for="da">Data Science</label>
+    <br>
+    <input type="checkbox" name="additional" id="ac">
+    <label for="ac">Additional Courses</label>
+    <br>
+
+    <h3>Any comments or suggestions?</h3>
+    <textarea name="comment" id="com" cols="15" rows="2" placeholder="Enter your comment here... Thanks for your comments..."></textarea>
+    <input type="submit" value="Submit">
+
+
+
+
+
+    </form>
+    
+</html>
